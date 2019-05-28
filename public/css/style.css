@@ -1,3 +1,75 @@
 body{
-	background-color: #AAF;
+	background-color: darkgray;
+	margin: 0;
+}
+header{
+	width: 85%;
+	margin: auto;
+	margin-top: .5em;
+	height: 2em;
+	font-size: 2em;
+	text-align: center;
+	background-color: grey;
+	color: white;
+	position: relative;
+	border-radius: 100px;
+}
+.p_header{
+	padding-top: .4em;
+}
+footer{
+	width: 100%;
+	height: 2em;
+	font-size: 2em;
+	background-color: black;
+	color: darkgrey;
+	position: fixed;
+	bottom: 0%;
+	text-align: center;
+}
+.p_footer{
+	margin-top: .5em;
+}
+li.active{
+	background-color: darksalmon;
+}
+li{
+	padding: 1em;
+}
+nav{
+	display: flex;
+	justify-content: center;
+}
+.navMenu{
+	margin: 2em;
+	list-style: none;
+	font-size: 1.4em;
+}
+.product_container{
+	background-color: darksalmon;
+	width: 13%;
+	position: absolute;
+	top: 35%;
+	right: 3%;
+}
+.p_product{
+	font-size: 1.5em;
+	margin-left: 2.5em;
+}
+.employ_container{
+	background-color: grey;
+	width: 20%;
+	height: 240px;
+}
+.ul_employ{
+	list-style: none;
+	padding: 0;
+}
+.ul_employ li{
+	padding: 0;
+	margin: .5em .5em .5em 1em;
+}
+.p_contact{
+	font-size: 1.3em;
+	padding: .5em .5em 1em .5em;
 }
